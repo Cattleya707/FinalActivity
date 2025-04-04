@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-20T14:58:12 GMT+08:00" name="Suite" finished-at="2025-03-20T14:58:49 GMT+08:00" duration-ms="37321">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LogInErrorValidation()[pri:0, instance:cattleyanadora.ErrorValidationsTest@36ebc363]" name="LogInErrorValidation" class="cattleyanadora.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" name="submitOrder" class="cattleyanadora.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-03-20T14:58:12 GMT+08:00" name="Error Validations Test" finished-at="2025-03-20T14:58:31 GMT+08:00" duration-ms="18633">
+      <class name="cattleyanadora.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.ErrorValidationsTest@36ebc363]" started-at="2025-03-20T14:58:12 GMT+08:00" name="launchApplication" finished-at="2025-03-20T14:58:21 GMT+08:00" duration-ms="8882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LogInErrorValidation()[pri:0, instance:cattleyanadora.ErrorValidationsTest@36ebc363]" started-at="2025-03-20T14:58:21 GMT+08:00" name="LogInErrorValidation" finished-at="2025-03-20T14:58:22 GMT+08:00" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.ErrorValidationsTest@36ebc363]" started-at="2025-03-20T14:58:22 GMT+08:00" name="tearDown" finished-at="2025-03-20T14:58:22 GMT+08:00" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.ErrorValidationsTest@36ebc363]" started-at="2025-03-20T14:58:22 GMT+08:00" name="launchApplication" finished-at="2025-03-20T14:58:27 GMT+08:00" duration-ms="4981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidaton()[pri:0, instance:cattleyanadora.ErrorValidationsTest@36ebc363]" started-at="2025-03-20T14:58:27 GMT+08:00" name="ProductErrorValidaton" finished-at="2025-03-20T14:58:30 GMT+08:00" duration-ms="2990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidaton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.ErrorValidationsTest@36ebc363]" started-at="2025-03-20T14:58:30 GMT+08:00" name="tearDown" finished-at="2025-03-20T14:58:30 GMT+08:00" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2025-03-20T14:58:12 GMT+08:00" name="Submit Order Test" finished-at="2025-03-20T14:58:49 GMT+08:00" duration-ms="37321">
+      <class name="cattleyanadora.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:12 GMT+08:00" name="launchApplication" finished-at="2025-03-20T14:58:21 GMT+08:00" duration-ms="9043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:21 GMT+08:00" name="submitOrder" data-provider="getData" finished-at="2025-03-20T14:58:27 GMT+08:00" duration-ms="5340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=kM532Ma.#WxLX2F, product=ZARA COAT 3, email=ayn@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:27 GMT+08:00" name="tearDown" finished-at="2025-03-20T14:58:27 GMT+08:00" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:27 GMT+08:00" name="launchApplication" finished-at="2025-03-20T14:58:38 GMT+08:00" duration-ms="11282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:38 GMT+08:00" name="submitOrder" data-provider="getData" finished-at="2025-03-20T14:58:43 GMT+08:00" duration-ms="4342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ihatethis!1, product=ADIDAS ORIGINAL, email=ayn2@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:43 GMT+08:00" name="tearDown" finished-at="2025-03-20T14:58:43 GMT+08:00" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:43 GMT+08:00" name="launchApplication" finished-at="2025-03-20T14:58:48 GMT+08:00" duration-ms="5067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:48 GMT+08:00" name="OrderHistoryTest" finished-at="2025-03-20T14:58:49 GMT+08:00" depends-on-methods="cattleyanadora.SubmitOrderTest.submitOrder" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.SubmitOrderTest@5c5eefef]" started-at="2025-03-20T14:58:49 GMT+08:00" name="tearDown" finished-at="2025-03-20T14:58:49 GMT+08:00" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
