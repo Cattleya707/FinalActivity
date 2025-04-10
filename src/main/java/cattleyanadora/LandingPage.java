@@ -47,11 +47,6 @@ public class LandingPage extends AbstractComponent {
 		return errorMessage.getText();
 	}
 	
-	public Boolean VerifyFeaturesDisplay() {
-		Boolean match= submit.isDisplayed();
-		return match;
-	}
-	
 	
 	
 	public void goTo() {

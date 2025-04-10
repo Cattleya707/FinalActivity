@@ -52,7 +52,7 @@ public class CartPageVeri extends BaseTest {
 		ProductCatalog productCatalog =landingPage.loginApplication(username, password);
 		productCatalog.addProductToCart(productName);
 		CartPage cartPage = productCatalog.goToCartPage();
-		System.out.println("Are the cart features displayed in the page?:" + " "+ cartPage.CartFeaturesDisplay());
+		Assert.assertTrue(cartPage.CartFeaturesDisplay());
 
 	}
 	
@@ -62,7 +62,7 @@ public class CartPageVeri extends BaseTest {
 		ProductCatalog productCatalog =landingPage.loginApplication(username, password);
 		productCatalog.addProductToCart(productName);
 		CartPage cartPage = productCatalog.goToCartPage();
-		System.out.println("Are the product details displayed in the cart?:" + " "+ cartPage.verifyProductDetailsInCart(productName));
+		Assert.assertTrue(cartPage.verifyProductDetailsInCart(productName));
 
 	}
 	@Test

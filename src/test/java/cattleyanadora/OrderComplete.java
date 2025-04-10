@@ -68,8 +68,10 @@ public class OrderComplete extends BaseTest{
 		CheckoutPage checkoutPage =cartPage.goToCheckOut();
 		Checkout2 checkout2 = checkoutPage.CheckoutForm(firstname, lastname, zipcode);
 		ConfirmationPage confirmationPage = checkout2.goToConfirmPage();
-		System.out.println("The confirmation message is:"+ " " + confirmationPage.confirmText() + " " +
-		"and is the back home button displayed?:"+ " "+confirmationPage.BackHomeButton());
+		/*System.out.println("The confirmation message is:"+ " " + confirmationPage.confirmText() + " " +
+		"and is the back home button displayed?:"+ " "+confirmationPage.BackHomeButton());*/
+		Assert.assertEquals(confirmationPage.confirmText(), "Thank you for your order!");
+		Assert.assertTrue(confirmationPage.BackHomeButton());
 		
 	}
 

@@ -7,6 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -42,7 +43,9 @@ public class BaseTest {
 		
 		if (browserName.contains("chrome")) {		
 		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--incognito");
 		WebDriverManager.chromedriver().setup();
+
 		if(browserName.contains("headless")) {
 		options.addArguments("headless");
 		}
@@ -50,11 +53,13 @@ public class BaseTest {
 		driver.manage().window().setSize(new Dimension(1440,900));
 		}
 		else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\Nadora Family\\OneDrive\\Documents\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
         else if (browserName.equalsIgnoreCase("edge")) {
-        	System.setProperty("webdriver.edge.driver", "edge.exe");
+        	//System.setProperty("webdriver.edge.driver", "edge.exe");
+        	WebDriverManager.edgedriver().setup();
         	driver = new EdgeDriver();
 		}
 		driver.manage().window().maximize();
@@ -63,21 +68,9 @@ public class BaseTest {
 		return driver;
 	}
 	
-public List<HashMap<String, String>> getJsonDataToMap(String filepath) throws IOException {
-		
-		//read file to string
-		String jsonContent = FileUtils.readFileToString(new File(filepath),
-				StandardCharsets.UTF_8);
-	    //String to HasMap
-		
-		ObjectMapper mapper = new ObjectMapper();
-		List<HashMap<String, String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String, String>>>(){
-		});
-		return data;
-}
-	
 @BeforeMethod(alwaysRun = true)
 public LandingPage launchApplication() throws IOException {
+	//If browser isn't open or session is invalid, it calls intializeDriver()
     if (driver == null || ((RemoteWebDriver) driver).getSessionId() == null) {
         driver = intializeDriver();  
     }
@@ -90,10 +83,11 @@ public LandingPage launchApplication() throws IOException {
 public void tearDown() {
     if (driver != null) {
         try {
-        	//driver.manage().deleteAllCookies();
             driver.quit();
         } catch (Exception ignored) {
         }
+//Sets driver to null to clean up. cleans the memory
+
         driver = null;  
     }
 }

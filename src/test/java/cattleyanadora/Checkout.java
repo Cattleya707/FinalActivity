@@ -49,7 +49,7 @@ public class Checkout extends BaseTest{
 		productCatalog.addProductToCart(productName);
 		CartPage cartPage = productCatalog.goToCartPage();
 		CheckoutPage checkoutPage =cartPage.goToCheckOut();
-		System.out.println("Are the Checkout details displayed?:" + " "+ checkoutPage.VerifyCheckoutDetails());
+		Assert.assertTrue(checkoutPage.VerifyCheckoutDetails());
 		
 	}
 	

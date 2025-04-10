@@ -54,7 +54,7 @@ public class CheckoutOverview extends BaseTest {
 		CartPage cartPage = productCatalog.goToCartPage();
 		CheckoutPage checkoutPage =cartPage.goToCheckOut();
 		Checkout2 checkout2 = checkoutPage.CheckoutForm(firstname, lastname, zipcode);
-		System.out.println("Are checkout overview details displayed?:"+" "+checkout2.VerifyCheckoutDetails());
+		Assert.assertTrue(checkout2.VerifyCheckoutDetails());
 		List<WebElement> info = checkout2.getpayAndshipInfo();
 		Assert.assertEquals(info.size(),2);	
 	}
@@ -80,7 +80,7 @@ public class CheckoutOverview extends BaseTest {
 		CartPage cartPage = productCatalog.goToCartPage();
 		CheckoutPage checkoutPage =cartPage.goToCheckOut();
 		Checkout2 checkout2 = checkoutPage.CheckoutForm(firstname, lastname, zipcode);
-		System.out.println("Does the overall product details appear?"+ " " +checkout2.VerifyOverallProductDetails());
+		Assert.assertTrue(checkout2.VerifyOverallProductDetails());
 	}
 	
 	@Test

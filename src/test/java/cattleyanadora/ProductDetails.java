@@ -69,7 +69,7 @@ public class ProductDetails extends BaseTest {
 		//Verify if all the required details are displayed on the product detail page (Image, Product Name, Description, Details, and 'Add to Cart' button)
 		ProductCatalog productCatalog =landingPage.loginApplication(username, password);
 		productCatalog.goToProductDetailsPage(productName);
-	    System.out.println("Are the product details displayed?:"+ " "+ productCatalog.verifyProductDetails());
+	    Assert.assertTrue(productCatalog.verifyProductDetails());
 	}
 	
 }

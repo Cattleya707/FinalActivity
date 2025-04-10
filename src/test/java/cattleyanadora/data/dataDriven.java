@@ -55,7 +55,9 @@ public class dataDriven {
 	    }
     public ArrayList<ArrayList<String>> getUserData() throws IOException {
     	ArrayList<ArrayList<String>> data = new ArrayList<>();
-        FileInputStream fis = new FileInputStream("C:\\Users\\Nadora Family\\OneDrive\\Documents\\SaucedemoTestData.xlsx");
+    	String filePath = System.getProperty("user.dir") + "/SaucedemoTestData.xlsx";
+        File file = new File(filePath);
+        FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheetAt(0); // Get first sheet
         Iterator<Row> rowIterator = sheet.iterator();
@@ -94,7 +96,9 @@ public class dataDriven {
 		
 	public List<String> getAscendingProductsFromExcel() throws IOException {
 		    List<String> productNames = new ArrayList<>();
-		    FileInputStream fis = new FileInputStream("C:\\Users\\Nadora Family\\OneDrive\\Documents\\SaucedemoTestData.xlsx");
+		    String filePath = System.getProperty("user.dir") + "/SaucedemoTestData.xlsx";
+	        File file = new File(filePath);
+            FileInputStream fis = new FileInputStream(file);
 		    XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		    XSSFSheet sheet = workbook.getSheetAt(1); 
 
@@ -119,7 +123,9 @@ public class dataDriven {
 	
 	public List<String> getDescendingProductsFromExcel() throws IOException {
 	    List<String> productNames = new ArrayList<>();
-	    FileInputStream fis = new FileInputStream("C:\\Users\\Nadora Family\\OneDrive\\Documents\\SaucedemoTestData.xlsx");
+	    String filePath = System.getProperty("user.dir") + "/SaucedemoTestData.xlsx";
+        File file = new File(filePath);
+        FileInputStream fis = new FileInputStream(file);
 	    XSSFWorkbook workbook = new XSSFWorkbook(fis);
 	    XSSFSheet sheet = workbook.getSheetAt(1); 
 
@@ -143,7 +149,9 @@ public class dataDriven {
 	
 	public List<String> getLowtoHighPriceFromExcel() throws IOException {
 	    List<String> prices = new ArrayList<>();
-	    FileInputStream fis = new FileInputStream("C:\\Users\\Nadora Family\\OneDrive\\Documents\\SaucedemoTestData.xlsx");
+	    String filePath = System.getProperty("user.dir") + "/SaucedemoTestData.xlsx";
+        File file = new File(filePath);
+        FileInputStream fis = new FileInputStream(file);
 	    XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 	    XSSFSheet sheet = workbook.getSheetAt(1); // Get second sheet (Product List)
@@ -161,7 +169,9 @@ public class dataDriven {
 	
 	public List<String> getHightoLowPriceFromExcel() throws IOException {
 	    List<String> prices = new ArrayList<>();
-	    FileInputStream fis = new FileInputStream("C:\\Users\\Nadora Family\\OneDrive\\Documents\\SaucedemoTestData.xlsx");
+	    String filePath = System.getProperty("user.dir") + "/SaucedemoTestData.xlsx";
+        File file = new File(filePath);
+        FileInputStream fis = new FileInputStream(file);
 	    XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 	    XSSFSheet sheet = workbook.getSheetAt(1); // Get second sheet (Product List)
@@ -179,7 +189,9 @@ public class dataDriven {
 
 	public ArrayList<ArrayList<String>> getFilteredData(String firstName, String lastName, String zipCode) throws IOException {
 	    ArrayList<ArrayList<String>> filteredData = new ArrayList<>();
-	    FileInputStream fis = new FileInputStream("C:\\Users\\Nadora Family\\OneDrive\\Documents\\SaucedemoTestData.xlsx");
+	    String filePath = System.getProperty("user.dir") + "/SaucedemoTestData.xlsx";
+        File file = new File(filePath);
+        FileInputStream fis = new FileInputStream(file);
 	    XSSFWorkbook workbook = new XSSFWorkbook(fis);
 	    XSSFSheet sheet = workbook.getSheetAt(0); // Get first sheet
 	    Iterator<Row> rowIterator = sheet.iterator();

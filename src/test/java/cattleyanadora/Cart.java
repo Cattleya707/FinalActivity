@@ -57,7 +57,7 @@ public class Cart extends BaseTest {
 		//Verify if the sidebar closes after clicking the 'X' button.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.NavbarFunction(); 
-		System.out.println("The sidebar should be false when it closes:"+productCatalog.NavbarFunctionBoolean());
+		Assert.assertFalse(productCatalog.NavbarFunctionBoolean());
 		
 	}
 	
