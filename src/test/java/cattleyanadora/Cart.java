@@ -53,6 +53,7 @@ public class Cart extends BaseTest {
 	    List<WebElement> navList = productCatalog.NavbarCheck();
 	    productCatalog.screenshot();
 	    Assert.assertEquals(navList.size(), 4);
+	    productCatalog.screenshot();
 	}
 	
 	@Test
