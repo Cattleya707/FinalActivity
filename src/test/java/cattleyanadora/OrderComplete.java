@@ -32,7 +32,7 @@ public class OrderComplete extends BaseTest{
 		zipcode = userData.get(0).get(4);
 	}
 	@Test
-	public void FinishOrder() throws InterruptedException {
+	public void FinishOrder() throws InterruptedException, IOException {
 		//Verify if the user is able to click the 'Finish' button and proceed to the checkout complete page
 		//Verify if the user is able to proceed to the checkout complete page successfully.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
@@ -40,13 +40,14 @@ public class OrderComplete extends BaseTest{
 		CartPage cartPage = productCatalog.goToCartPage();
 		CheckoutPage checkoutPage =cartPage.goToCheckOut();
 		Checkout2 checkout2 = checkoutPage.CheckoutForm(firstname, lastname, zipcode);
-		checkout2.goToConfirmPage();
+		ConfirmationPage confirmationPage = checkout2.goToConfirmPage();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/checkout-complete.html");
+		confirmationPage.screenshot();
 	}
 	
 	@Test
-	public void GobackToProductPage() throws InterruptedException {
+	public void GobackToProductPage() throws InterruptedException, IOException {
 		//Verify if the page navigates back to the product listing after clicking the 'Back Home' button.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.addProductToCart(productName);
@@ -57,6 +58,7 @@ public class OrderComplete extends BaseTest{
 		confirmationPage.goBacktoProducts();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/inventory.html");
+		productCatalog.screenshot();
 	}
 	
 	@Test

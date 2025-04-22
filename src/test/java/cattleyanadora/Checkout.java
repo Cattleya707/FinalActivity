@@ -33,11 +33,12 @@ public class Checkout extends BaseTest{
 	}
 	
 	@Test
-	public void checkoutPage() {
+	public void checkoutPage() throws IOException {
 		//Verify if the user is able to access the checkout user information page after clicking the 'Checkout' button.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		CartPage cartPage = productCatalog.goToCartPage();
-		cartPage.goToCheckOut();
+		CheckoutPage checkoutPage = cartPage.goToCheckOut();
+		checkoutPage.screenshot();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/checkout-step-one.html");
 	}
@@ -54,12 +55,13 @@ public class Checkout extends BaseTest{
 	}
 	
 	@Test
-	public void goBacktoCart() {
+	public void goBacktoCart() throws IOException {
 		//Verify if the page redirects to the cart page after clicking the 'Cancel' button.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		CartPage cartPage = productCatalog.goToCartPage();
 		CheckoutPage checkoutPage =cartPage.goToCheckOut();
 		checkoutPage.goBacktoCartPage();
+		cartPage.screenshot();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/cart.html");
 

@@ -1,53 +1,695 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="53" passed="53" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-10T11:06:31 PST" name="Default suite" finished-at="2025-04-10T11:06:42 PST" duration-ms="10235">
+  <suite started-at="2025-04-22T09:16:42 PST" name="Default suite" finished-at="2025-04-22T09:21:16 PST" duration-ms="274302">
     <groups>
     </groups>
-    <test started-at="2025-04-10T11:06:31 PST" name="Default test" finished-at="2025-04-10T11:06:42 PST" duration-ms="10235">
-      <class name="cattleyanadora.OrderComplete">
-        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:32 PST" name="setup" finished-at="2025-04-10T11:06:32 PST" duration-ms="468" status="PASS">
+    <test started-at="2025-04-22T09:16:42 PST" name="Default test" finished-at="2025-04-22T09:21:16 PST" duration-ms="274302">
+      <class name="cattleyanadora.Product">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:15 PST" name="setup" finished-at="2025-04-22T09:17:15 PST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:32 PST" name="launchApplication" finished-at="2025-04-10T11:06:35 PST" duration-ms="2745" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:15 PST" name="launchApplication" finished-at="2025-04-22T09:17:18 PST" duration-ms="2955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="FinishOrder()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:35 PST" name="FinishOrder" finished-at="2025-04-10T11:06:35 PST" duration-ms="726" status="PASS">
+        <test-method signature="Ascending()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:18 PST" name="Ascending" finished-at="2025-04-22T09:17:19 PST" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ascending -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:19 PST" name="tearDown" finished-at="2025-04-22T09:17:20 PST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:20 PST" name="launchApplication" finished-at="2025-04-22T09:17:23 PST" duration-ms="2890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CartButtonTest()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:23 PST" name="CartButtonTest" finished-at="2025-04-22T09:17:23 PST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:23 PST" name="tearDown" finished-at="2025-04-22T09:17:23 PST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:23 PST" name="launchApplication" finished-at="2025-04-22T09:17:27 PST" duration-ms="3383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Descending()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:27 PST" name="Descending" finished-at="2025-04-22T09:17:28 PST" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Descending -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:28 PST" name="tearDown" finished-at="2025-04-22T09:17:28 PST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:28 PST" name="launchApplication" finished-at="2025-04-22T09:17:31 PST" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="HighToLow()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:31 PST" name="HighToLow" finished-at="2025-04-22T09:17:33 PST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:33 PST" name="tearDown" finished-at="2025-04-22T09:17:33 PST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:33 PST" name="launchApplication" finished-at="2025-04-22T09:17:36 PST" duration-ms="3051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LowToHigh()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:36 PST" name="LowToHigh" finished-at="2025-04-22T09:17:37 PST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:37 PST" name="tearDown" finished-at="2025-04-22T09:17:37 PST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:37 PST" name="launchApplication" finished-at="2025-04-22T09:17:40 PST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductList()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:40 PST" name="ProductList" finished-at="2025-04-22T09:17:41 PST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:41 PST" name="tearDown" finished-at="2025-04-22T09:17:41 PST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:41 PST" name="launchApplication" finished-at="2025-04-22T09:17:44 PST" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductPageDisplayed()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:44 PST" name="ProductPageDisplayed" finished-at="2025-04-22T09:17:45 PST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPageDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:45 PST" name="tearDown" finished-at="2025-04-22T09:17:45 PST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:45 PST" name="launchApplication" finished-at="2025-04-22T09:17:48 PST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RequiredDetails()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:48 PST" name="RequiredDetails" finished-at="2025-04-22T09:17:52 PST" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequiredDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Product@1e178745]" started-at="2025-04-22T09:17:52 PST" name="tearDown" finished-at="2025-04-22T09:17:53 PST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.Product -->
+      <class name="cattleyanadora.ProductDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:42 PST" name="setup" finished-at="2025-04-22T09:16:43 PST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:43 PST" name="launchApplication" finished-at="2025-04-22T09:16:47 PST" duration-ms="4159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddToCartDetails()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:47 PST" name="AddToCartDetails" finished-at="2025-04-22T09:16:48 PST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:48 PST" name="tearDown" finished-at="2025-04-22T09:16:48 PST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:48 PST" name="launchApplication" finished-at="2025-04-22T09:16:51 PST" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="DetailsPagedesc()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:51 PST" name="DetailsPagedesc" finished-at="2025-04-22T09:16:52 PST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DetailsPagedesc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:52 PST" name="tearDown" finished-at="2025-04-22T09:16:52 PST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:52 PST" name="launchApplication" finished-at="2025-04-22T09:16:55 PST" duration-ms="3313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductDetailPageRemove()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:55 PST" name="ProductDetailPageRemove" finished-at="2025-04-22T09:16:56 PST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDetailPageRemove -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:56 PST" name="tearDown" finished-at="2025-04-22T09:16:57 PST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:16:57 PST" name="launchApplication" finished-at="2025-04-22T09:17:00 PST" duration-ms="2995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductDetailPageTest()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:17:00 PST" name="ProductDetailPageTest" finished-at="2025-04-22T09:17:00 PST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDetailPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:17:00 PST" name="tearDown" finished-at="2025-04-22T09:17:00 PST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:17:00 PST" name="launchApplication" finished-at="2025-04-22T09:17:04 PST" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RemoveItemUpdate()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:17:04 PST" name="RemoveItemUpdate" finished-at="2025-04-22T09:17:15 PST" duration-ms="11066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItemUpdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.ProductDetails@5b94b04d]" started-at="2025-04-22T09:17:15 PST" name="tearDown" finished-at="2025-04-22T09:17:15 PST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.ProductDetails -->
+      <class name="cattleyanadora.Cart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:17:53 PST" name="setup" finished-at="2025-04-22T09:17:53 PST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:17:53 PST" name="launchApplication" finished-at="2025-04-22T09:17:56 PST" duration-ms="2904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ItemCount()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:17:56 PST" name="ItemCount" finished-at="2025-04-22T09:17:56 PST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:17:56 PST" name="tearDown" finished-at="2025-04-22T09:17:57 PST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:17:57 PST" name="launchApplication" finished-at="2025-04-22T09:18:00 PST" duration-ms="2942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="MultipleCartCounter()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:00 PST" name="MultipleCartCounter" finished-at="2025-04-22T09:18:00 PST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleCartCounter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:00 PST" name="tearDown" finished-at="2025-04-22T09:18:01 PST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:01 PST" name="launchApplication" finished-at="2025-04-22T09:18:04 PST" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="NavBarCloseTest()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:04 PST" name="NavBarCloseTest" finished-at="2025-04-22T09:18:06 PST" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavBarCloseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:06 PST" name="tearDown" finished-at="2025-04-22T09:18:06 PST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:06 PST" name="launchApplication" finished-at="2025-04-22T09:18:09 PST" duration-ms="2922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="NavBarItems()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:09 PST" name="NavBarItems" finished-at="2025-04-22T09:18:11 PST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavBarItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Cart@192c3f1e]" started-at="2025-04-22T09:18:11 PST" name="tearDown" finished-at="2025-04-22T09:18:11 PST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.Cart -->
+      <class name="cattleyanadora.CheckoutOverview">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:10 PST" name="setup" finished-at="2025-04-22T09:19:10 PST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:10 PST" name="launchApplication" finished-at="2025-04-22T09:19:22 PST" duration-ms="11893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="BacktoProductPage()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:22 PST" name="BacktoProductPage" finished-at="2025-04-22T09:19:25 PST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoProductPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:25 PST" name="tearDown" finished-at="2025-04-22T09:19:25 PST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:25 PST" name="launchApplication" finished-at="2025-04-22T09:19:28 PST" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CheckoutDetails()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:28 PST" name="CheckoutDetails" finished-at="2025-04-22T09:19:29 PST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:29 PST" name="tearDown" finished-at="2025-04-22T09:19:30 PST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:30 PST" name="launchApplication" finished-at="2025-04-22T09:19:32 PST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CheckoutOverviewPage()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:32 PST" name="CheckoutOverviewPage" finished-at="2025-04-22T09:19:34 PST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutOverviewPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:34 PST" name="tearDown" finished-at="2025-04-22T09:19:34 PST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:34 PST" name="launchApplication" finished-at="2025-04-22T09:19:37 PST" duration-ms="2909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyOverviewProductDetails()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:37 PST" name="VerifyOverviewProductDetails" finished-at="2025-04-22T09:19:38 PST" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOverviewProductDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:38 PST" name="tearDown" finished-at="2025-04-22T09:19:39 PST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:39 PST" name="launchApplication" finished-at="2025-04-22T09:19:42 PST" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyTotal()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:42 PST" name="VerifyTotal" finished-at="2025-04-22T09:19:43 PST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CheckoutOverview@7494f96a]" started-at="2025-04-22T09:19:43 PST" name="tearDown" finished-at="2025-04-22T09:19:43 PST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.CheckoutOverview -->
+      <class name="cattleyanadora.Checkout">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:11 PST" name="setup" finished-at="2025-04-22T09:18:11 PST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:11 PST" name="launchApplication" finished-at="2025-04-22T09:18:14 PST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AllBlankFields()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:14 PST" name="AllBlankFields" finished-at="2025-04-22T09:18:15 PST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllBlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:15 PST" name="tearDown" finished-at="2025-04-22T09:18:16 PST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:16 PST" name="launchApplication" finished-at="2025-04-22T09:18:19 PST" duration-ms="3330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CheckoutInputSuccess()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:19 PST" name="CheckoutInputSuccess" finished-at="2025-04-22T09:18:20 PST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutInputSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:20 PST" name="tearDown" finished-at="2025-04-22T09:18:21 PST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:21 PST" name="launchApplication" finished-at="2025-04-22T09:18:24 PST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="FirstNameBlankField()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:24 PST" name="FirstNameBlankField" finished-at="2025-04-22T09:18:25 PST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstNameBlankField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:25 PST" name="tearDown" finished-at="2025-04-22T09:18:26 PST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:26 PST" name="launchApplication" finished-at="2025-04-22T09:18:31 PST" duration-ms="4943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LastNameBlankField()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:31 PST" name="LastNameBlankField" finished-at="2025-04-22T09:18:32 PST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastNameBlankField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:32 PST" name="tearDown" finished-at="2025-04-22T09:18:32 PST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:32 PST" name="launchApplication" finished-at="2025-04-22T09:18:36 PST" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OnlyFirstName()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:36 PST" name="OnlyFirstName" finished-at="2025-04-22T09:18:37 PST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlyFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:37 PST" name="tearDown" finished-at="2025-04-22T09:18:37 PST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:37 PST" name="launchApplication" finished-at="2025-04-22T09:18:41 PST" duration-ms="3273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OnlyLastName()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:41 PST" name="OnlyLastName" finished-at="2025-04-22T09:18:42 PST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlyLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:42 PST" name="tearDown" finished-at="2025-04-22T09:18:42 PST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:42 PST" name="launchApplication" finished-at="2025-04-22T09:18:45 PST" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OnlyPostalCode()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:45 PST" name="OnlyPostalCode" finished-at="2025-04-22T09:18:46 PST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlyPostalCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:46 PST" name="tearDown" finished-at="2025-04-22T09:18:47 PST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:47 PST" name="launchApplication" finished-at="2025-04-22T09:18:49 PST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PostalCodeBlankField()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:49 PST" name="PostalCodeBlankField" finished-at="2025-04-22T09:18:51 PST" duration-ms="2528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostalCodeBlankField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:51 PST" name="tearDown" finished-at="2025-04-22T09:18:51 PST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:51 PST" name="launchApplication" finished-at="2025-04-22T09:18:54 PST" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkoutPage()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:54 PST" name="checkoutPage" finished-at="2025-04-22T09:18:55 PST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:55 PST" name="tearDown" finished-at="2025-04-22T09:18:56 PST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:18:56 PST" name="launchApplication" finished-at="2025-04-22T09:19:01 PST" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkoutPageDetails()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:19:01 PST" name="checkoutPageDetails" finished-at="2025-04-22T09:19:03 PST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:19:03 PST" name="tearDown" finished-at="2025-04-22T09:19:03 PST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:19:03 PST" name="launchApplication" finished-at="2025-04-22T09:19:09 PST" duration-ms="6059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="goBacktoCart()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:19:09 PST" name="goBacktoCart" finished-at="2025-04-22T09:19:10 PST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBacktoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Checkout@26b3fd41]" started-at="2025-04-22T09:19:10 PST" name="tearDown" finished-at="2025-04-22T09:19:10 PST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.Checkout -->
+      <class name="cattleyanadora.OrderComplete">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:43 PST" name="setup" finished-at="2025-04-22T09:19:43 PST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:43 PST" name="launchApplication" finished-at="2025-04-22T09:19:46 PST" duration-ms="2932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="FinishOrder()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:46 PST" name="FinishOrder" finished-at="2025-04-22T09:19:48 PST" duration-ms="1692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FinishOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:35 PST" name="tearDown" finished-at="2025-04-10T11:06:36 PST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:48 PST" name="tearDown" finished-at="2025-04-22T09:19:48 PST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:36 PST" name="launchApplication" finished-at="2025-04-10T11:06:38 PST" duration-ms="2191" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:48 PST" name="launchApplication" finished-at="2025-04-22T09:19:51 PST" duration-ms="2836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="GetConfirmationMessage()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:38 PST" name="GetConfirmationMessage" finished-at="2025-04-10T11:06:39 PST" duration-ms="711" status="PASS">
+        <test-method signature="GetConfirmationMessage()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:51 PST" name="GetConfirmationMessage" finished-at="2025-04-22T09:19:53 PST" duration-ms="1567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetConfirmationMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:39 PST" name="tearDown" finished-at="2025-04-10T11:06:39 PST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:53 PST" name="tearDown" finished-at="2025-04-22T09:19:53 PST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:39 PST" name="launchApplication" finished-at="2025-04-10T11:06:41 PST" duration-ms="2228" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:53 PST" name="launchApplication" finished-at="2025-04-22T09:19:56 PST" duration-ms="2815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="GobackToProductPage()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:41 PST" name="GobackToProductPage" finished-at="2025-04-10T11:06:42 PST" duration-ms="716" status="PASS">
+        <test-method signature="GobackToProductPage()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:56 PST" name="GobackToProductPage" finished-at="2025-04-22T09:19:57 PST" duration-ms="1860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GobackToProductPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.OrderComplete@6c40365c]" started-at="2025-04-10T11:06:42 PST" name="tearDown" finished-at="2025-04-10T11:06:42 PST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.OrderComplete@561b6512]" started-at="2025-04-22T09:19:57 PST" name="tearDown" finished-at="2025-04-22T09:19:58 PST" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- cattleyanadora.OrderComplete -->
+      <class name="cattleyanadora.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:49 PST" name="setup" finished-at="2025-04-22T09:20:49 PST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:49 PST" name="launchApplication" finished-at="2025-04-22T09:20:52 PST" duration-ms="2728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="BlankFields()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:52 PST" name="BlankFields" finished-at="2025-04-22T09:20:52 PST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:52 PST" name="tearDown" finished-at="2025-04-22T09:20:52 PST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:52 PST" name="launchApplication" finished-at="2025-04-22T09:20:55 PST" duration-ms="2673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="BlankPassword()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:55 PST" name="BlankPassword" finished-at="2025-04-22T09:20:55 PST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:55 PST" name="tearDown" finished-at="2025-04-22T09:20:56 PST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:56 PST" name="launchApplication" finished-at="2025-04-22T09:20:58 PST" duration-ms="2856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="BlankUsername()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:58 PST" name="BlankUsername" finished-at="2025-04-22T09:20:59 PST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:59 PST" name="tearDown" finished-at="2025-04-22T09:20:59 PST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:20:59 PST" name="launchApplication" finished-at="2025-04-22T09:21:02 PST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="IncorrectLogin()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:02 PST" name="IncorrectLogin" finished-at="2025-04-22T09:21:02 PST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:02 PST" name="tearDown" finished-at="2025-04-22T09:21:02 PST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:02 PST" name="launchApplication" finished-at="2025-04-22T09:21:05 PST" duration-ms="2984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="IncorrectPassword()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:05 PST" name="IncorrectPassword" finished-at="2025-04-22T09:21:06 PST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:06 PST" name="tearDown" finished-at="2025-04-22T09:21:06 PST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:06 PST" name="launchApplication" finished-at="2025-04-22T09:21:09 PST" duration-ms="2824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="IncorrectUsername()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:09 PST" name="IncorrectUsername" finished-at="2025-04-22T09:21:09 PST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:09 PST" name="tearDown" finished-at="2025-04-22T09:21:10 PST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:10 PST" name="launchApplication" finished-at="2025-04-22T09:21:12 PST" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginLanding()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:12 PST" name="LoginLanding" finished-at="2025-04-22T09:21:13 PST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLanding -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:13 PST" name="tearDown" finished-at="2025-04-22T09:21:13 PST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:13 PST" name="launchApplication" finished-at="2025-04-22T09:21:16 PST" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginSucess()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:16 PST" name="LoginSucess" finished-at="2025-04-22T09:21:16 PST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSucess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.Login@1757cd72]" started-at="2025-04-22T09:21:16 PST" name="tearDown" finished-at="2025-04-22T09:21:16 PST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.Login -->
+      <class name="cattleyanadora.CartPageVeri">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:19:58 PST" name="setup" finished-at="2025-04-22T09:19:58 PST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:19:58 PST" name="launchApplication" finished-at="2025-04-22T09:20:01 PST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddedItemDisplay()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:01 PST" name="AddedItemDisplay" finished-at="2025-04-22T09:20:02 PST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddedItemDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:02 PST" name="tearDown" finished-at="2025-04-22T09:20:02 PST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:02 PST" name="launchApplication" finished-at="2025-04-22T09:20:05 PST" duration-ms="2842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CartFeaturesDisplay()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:05 PST" name="CartFeaturesDisplay" finished-at="2025-04-22T09:20:06 PST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartFeaturesDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:06 PST" name="tearDown" finished-at="2025-04-22T09:20:06 PST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:06 PST" name="launchApplication" finished-at="2025-04-22T09:20:09 PST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CartPageAcess()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:09 PST" name="CartPageAcess" finished-at="2025-04-22T09:20:10 PST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPageAcess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:10 PST" name="tearDown" finished-at="2025-04-22T09:20:10 PST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:10 PST" name="launchApplication" finished-at="2025-04-22T09:20:13 PST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CartPesistTest()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:13 PST" name="CartPesistTest" finished-at="2025-04-22T09:20:17 PST" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPesistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:17 PST" name="tearDown" finished-at="2025-04-22T09:20:17 PST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:17 PST" name="launchApplication" finished-at="2025-04-22T09:20:20 PST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ContinueShopping()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:20 PST" name="ContinueShopping" finished-at="2025-04-22T09:20:21 PST" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:21 PST" name="tearDown" finished-at="2025-04-22T09:20:22 PST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:22 PST" name="launchApplication" finished-at="2025-04-22T09:20:25 PST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="MultipleCartItemsDisplay()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:25 PST" name="MultipleCartItemsDisplay" finished-at="2025-04-22T09:20:26 PST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleCartItemsDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:26 PST" name="tearDown" finished-at="2025-04-22T09:20:26 PST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:26 PST" name="launchApplication" finished-at="2025-04-22T09:20:29 PST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductDisplay()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:29 PST" name="ProductDisplay" finished-at="2025-04-22T09:20:30 PST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:30 PST" name="tearDown" finished-at="2025-04-22T09:20:30 PST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:30 PST" name="launchApplication" finished-at="2025-04-22T09:20:33 PST" duration-ms="2931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RemoveItemUpdate()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:33 PST" name="RemoveItemUpdate" finished-at="2025-04-22T09:20:44 PST" duration-ms="10995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItemUpdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:44 PST" name="tearDown" finished-at="2025-04-22T09:20:44 PST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:44 PST" name="launchApplication" finished-at="2025-04-22T09:20:47 PST" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RemoveMultipleCartCounter()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:47 PST" name="RemoveMultipleCartCounter" finished-at="2025-04-22T09:20:49 PST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveMultipleCartCounter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cattleyanadora.CartPageVeri@2e377400]" started-at="2025-04-22T09:20:49 PST" name="tearDown" finished-at="2025-04-22T09:20:49 PST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cattleyanadora.CartPageVeri -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

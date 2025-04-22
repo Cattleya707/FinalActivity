@@ -28,22 +28,24 @@ public class CartPageVeri extends BaseTest {
 	}
 
 	@Test
-	public void CartPageAcess() {
+	public void CartPageAcess() throws IOException {
 		//Verify if the user is able to access the cart page.
 		ProductCatalog productCatalog =landingPage.loginApplication(username, password);
-		productCatalog.goToCartPage();
+		CartPage cartPage = productCatalog.goToCartPage();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/cart.html");
+		cartPage.screenshot();
 	}
 	
 	@Test
-	public void ContinueShopping() {
+	public void ContinueShopping() throws IOException {
 		//Verify if the page navigates back to the product listing after clicking 'Continue Shopping'.
 		ProductCatalog productCatalog =landingPage.loginApplication(username, password);
 		CartPage cartPage = productCatalog.goToCartPage();
 		cartPage.continueShopping();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/inventory.html");
+		productCatalog.screenshot();
 
 	}
 	@Test
@@ -73,6 +75,7 @@ public class CartPageVeri extends BaseTest {
 		CartPage cartPage = productCatalog.goToCartPage();
 		String currentProduct = cartPage.confirmProductName();
 		Assert.assertEquals(currentProduct, productName);
+		cartPage.screenshot();
 
 	}
 	
@@ -83,6 +86,7 @@ public class CartPageVeri extends BaseTest {
 		productCatalog.addProductToCart(productName);
 		productCatalog.goToCartPage();
 		productCatalog.RemoveProduct();
+		productCatalog.screenshot();
 		System.out.println("the number of removed cartItems are"  + " "+ productCatalog.CountCheck());
 		   
 	}
@@ -96,6 +100,7 @@ public class CartPageVeri extends BaseTest {
 		productCatalog.logoutPage();
 		
         landingPage.loginApplication(username, password);
+        productCatalog.screenshot();
         Thread.sleep(2000);
 		System.out.println("If there is a cart count here, that means the icon still persists:" 
 				+ " " + productCatalog.CountCheck());
@@ -108,6 +113,7 @@ public class CartPageVeri extends BaseTest {
 		productCatalog.addMultipleItemsToCart(3);
 		CartPage cartpage =productCatalog.goToCartPage();
 		cartpage.VerifyMultipleItems(3);
+		cartpage.screenshot();
 	}
 	
 	@Test
@@ -117,6 +123,7 @@ public class CartPageVeri extends BaseTest {
 		productCatalog.addMultipleItemsToCart(3);
 		productCatalog.goToCartPage();
 		productCatalog.RemoveMultipleItemsToCart(2);;
+		productCatalog.screenshot();
 		System.out.println("Cart Count:"+ " " + productCatalog.CountCheck());
 
 	}

@@ -28,11 +28,12 @@ public class Cart extends BaseTest {
 	}
 	
 	@Test
-	public void ItemCount() throws InterruptedException  {
+	public void ItemCount() throws InterruptedException, IOException  {
 		//Verify if the cart count updates when the user adds one item.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.addMultipleItemsToCart(1);
 	    System.out.println("Cart Count:"+ " " + productCatalog.CountCheck());
+	    productCatalog.screenshot();
 	}
 	
 	@Test
@@ -41,14 +42,16 @@ public class Cart extends BaseTest {
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.addMultipleItemsToCart(3);
 		System.out.println("Cart Count:"+ " " + productCatalog.CountCheck());
+		productCatalog.screenshot();
 
 	}
 	
 	@Test
-	public void NavBarItems() {
+	public void NavBarItems() throws IOException {
 		//Verify if the hamburger menu button is displayed and if all menu options are visible.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 	    List<WebElement> navList = productCatalog.NavbarCheck();
+	    productCatalog.screenshot();
 	    Assert.assertEquals(navList.size(), 4);
 	}
 	

@@ -34,7 +34,7 @@ public class CheckoutOverview extends BaseTest {
 	}
 	
 	@Test
-	public void CheckoutOverviewPage() throws InterruptedException {
+	public void CheckoutOverviewPage() throws InterruptedException, IOException {
 		//Verify if the user is able to access the checkout overview page.
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.addProductToCart(productName);
@@ -43,6 +43,7 @@ public class CheckoutOverview extends BaseTest {
 		Checkout2 checkout2 = checkoutPage.CheckoutForm(firstname, lastname, zipcode);
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/checkout-step-two.html");
+		checkout2.screenshot();
 			
 	}
 	

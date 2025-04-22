@@ -1,9 +1,17 @@
 package cattleyanadora.AbstractComponents;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -106,5 +114,15 @@ public class AbstractComponent {
 		//visibility- until it appeared
 		//invinsibility- until it disappears 
 		//wait.until(ExpectedConditions.invisibilityOf(ele));
+	}
+	
+	public void screenshot() throws IOException {
+		
+		String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+		String screenshotPath = System.getProperty("user.dir") + "\\Screenshots\\Screenshot_" + timestamp + ".png";
+
+		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(src, new File(screenshotPath));
+
 	}
 }

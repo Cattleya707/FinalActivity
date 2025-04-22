@@ -30,9 +30,10 @@ public class Product extends BaseTest {
 	@Test
 	public void ProductPageDisplayed() throws IOException, InterruptedException {
 		//Verify if the user is able to access the product listing page.
-		landingPage.loginApplication(username,password);
+		ProductCatalog productCatalog = landingPage.loginApplication(username,password);
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/inventory.html");
+		productCatalog.screenshot();
 	}
 	
 	@Test
@@ -68,7 +69,7 @@ public class Product extends BaseTest {
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.selectSortingOptionByIndex(0);
 		Assert.assertEquals(productCatalog.getProductNames(), d.getAscendingProductsFromExcel());
-		
+		productCatalog.screenshot();
 		
 	}
 	
@@ -78,7 +79,7 @@ public class Product extends BaseTest {
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.selectSortingOptionByIndex(1);
 		Assert.assertEquals(productCatalog.getProductNames(), d.getDescendingProductsFromExcel());
-		
+		productCatalog.screenshot();
 		
 	}
 	
@@ -87,6 +88,7 @@ public class Product extends BaseTest {
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.selectSortingOptionByIndex(2);
 		Assert.assertEquals(productCatalog.getPrices(), d.getLowtoHighPriceFromExcel());
+		productCatalog.screenshot();
 		
 		
 	}
@@ -97,6 +99,7 @@ public class Product extends BaseTest {
 		ProductCatalog productCatalog =landingPage.loginApplication(username,password);
 		productCatalog.selectSortingOptionByIndex(3);
 		Assert.assertEquals(productCatalog.getPrices(), d.getHightoLowPriceFromExcel());
+		productCatalog.screenshot();
 		
 		
 	}

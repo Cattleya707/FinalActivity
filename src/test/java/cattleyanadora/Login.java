@@ -28,6 +28,7 @@ public class Login extends BaseTest{
 		LandingPage landingPage = launchApplication();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/");
+		landingPage.screenshot();
 	}
 	
 	@Test
