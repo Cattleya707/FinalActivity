@@ -58,6 +58,7 @@ public class OrderComplete extends BaseTest{
 		confirmationPage.goBacktoProducts();
 		String currentUrl= driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl, "https://www.saucedemo.com/inventory.html");
+		//new
 		productCatalog.screenshot();
 	}
 	
